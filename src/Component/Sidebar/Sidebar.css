@@ -31,6 +31,10 @@
     font-size: 1.3rem;
 }
 
+.icon {
+    margin-left: 8px;
+}
+
 .sidebar-links li.active {
     background-color: #391588;
 }
