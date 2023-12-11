@@ -1,7 +1,8 @@
 import React from 'react'
+import ErrorBox from '../ErrorBox/Errorbox'
 
 export default function Orders() {
   return (
-    <div>Orders</div>
+    <ErrorBox msg="هیچ سفارشی یافت نشد" />
   )
 }

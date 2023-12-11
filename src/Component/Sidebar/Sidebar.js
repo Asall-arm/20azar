@@ -2,8 +2,8 @@ import React from 'react'
 import { AiOutlineHome } from 'react-icons/ai'
 import { MdProductionQuantityLimits } from 'react-icons/md'
 import { BiCommentDetail } from 'react-icons/bi'
-import { FiUsers } from 'react-icons/bi'
-import { BsBagCheck, BsCurrencyDollar } from 'react-icons/bi'
+import { BiSolidUser } from 'react-icons/bi'
+import { BiSolidShoppingBag, BiDollar } from 'react-icons/bi'
 
 
 
@@ -23,16 +23,16 @@ export default function sidebar() {
                 <link to="/products"><MdProductionQuantityLimits className='icon'/> محصولات</link>
             </li>
             <li>
-                <link to="/users"><FiUsers className='icon'/> کاربران</link>
+                <link to="/users"><BiSolidUser className='icon'/> کاربران</link>
             </li>
             <li>
-                <link to="orders"><BsBagCheck className='icon'/> سفارشات</link>
+                <link to="orders"><BiSolidShoppingBag className='icon'/> سفارشات</link>
             </li>
             <li>
-                <link to="comments"><BiCommentDetail className='icon'/> کامنت ها</link>
+                <link to="comments"><BiCommentDetail className='icon'/> کامنتها</link>
             </li>
             <li>
-                <link to="/offs"><BsCurrencyDollar className='icon'/> تخفیف ها</link>
+                <link to="/offs"><BiDollar className='icon'/> تخفیفها</link>
             </li>
         </ul>
 

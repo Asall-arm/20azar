@@ -1,7 +1,12 @@
 import React from 'react'
+import ErrorBox from '../ErrorBox/Errorbox'
+import DeleteModal from '../DeleteModal/DeleteModal'
 
 export default function Comments() {
   return (
-    <div>Comments</div>
+    <>
+    <ErrorBox msg="هیچ کامنتی یافت نشد" />
+      <DeleteModal />
+    </>
   )
 }
